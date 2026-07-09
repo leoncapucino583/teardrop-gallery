@@ -2,11 +2,6 @@ body{
     background-color: rgb(75, 165, 255);
 }
 
-p{
-    color: white;
-    font-family: 'Shag Lounge', sans-serif;
-}
-
 #main{
     font-family: 'Shag Lounge', sans-serif;
     text-align: center;
@@ -27,6 +22,14 @@ p{
     margin-bottom: 25px;
     border-radius: 5px;
     animation-duration: 1.5s;
+}
+
+p{
+    text-align: center;
+    font-size: xx-large;
+    animation-name: slide;
+    animation-duration: 2s;
+    font-family: 'Shag Lounge', sans-serif;
 }
 
 @keyframes slide{
